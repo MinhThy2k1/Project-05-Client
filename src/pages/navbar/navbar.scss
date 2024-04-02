@@ -1,0 +1,201 @@
+.box-main-up {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 8vh;
+    gap: 180px;
+    background-color: black;
+    border-bottom: 1px solid white;
+
+    .box-img {
+        position: absolute;
+        z-index: -1;
+        // top: 10px;
+        width: 100%;
+        height: 10%;
+    }
+
+    .box-1 {
+        cursor: pointer;
+
+        .box-1-item {
+            color: white;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+    }
+
+    .box-2 {
+        p {
+            cursor: pointer;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        color: white;
+
+        .box-sale {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 10px;
+        }
+
+        .box-lan {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            color: white;
+            gap: 10px;
+        }
+
+        .box-authen {
+            display: flex;
+            gap: 10px;
+
+            .box-signup {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                padding: 7px;
+            }
+
+            .box-signin {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border-radius: 10px;
+                padding: 6px;
+            }
+        }
+    }
+}
+
+.box-main-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+    gap: 60px;
+
+    .box-menu-item {
+        cursor: pointer;
+    }
+}
+
+.w3-dropdown-hover:first-child,
+.w3-dropdown-click:hover {
+    background-color: #00000000;
+    color: white;
+}
+
+//////////////////////////////////
+.button-flicker {
+    position: relative;
+    border-radius: 50px;
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 5px 5px;
+    top: -8px;
+    left: -5px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        -webkit-box-shadow: 0 0 3px #B20000;
+    }
+
+    50% {
+        background-color: #FF0000;
+        -webkit-box-shadow: 0 0 40px #FF0000;
+    }
+
+    100% {
+        background-color: #B20000;
+        -webkit-box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@-moz-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        -moz-box-shadow: 0 0 3px #B20000;
+    }
+
+    50% {
+        background-color: #FF0000;
+        -moz-box-shadow: 0 0 40px #FF0000;
+    }
+
+    100% {
+        background-color: #B20000;
+        -moz-box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@-o-keyframes glowing {
+    0% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+
+    50% {
+        background-color: #FF0000;
+        box-shadow: 0 0 40px #FF0000;
+    }
+
+    100% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+}
+
+@keyframes glowing {
+    0% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+
+    50% {
+        background-color: #FF0000;
+        box-shadow: 0 0 40px #FF0000;
+    }
+
+    100% {
+        background-color: #B20000;
+        box-shadow: 0 0 3px #B20000;
+    }
+}
+
+.box-chat {
+    position: absolute;
+    top: -100px;
+}

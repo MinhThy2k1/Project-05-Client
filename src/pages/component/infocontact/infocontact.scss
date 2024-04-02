@@ -1,0 +1,81 @@
+.box-user-contact-main {
+    display: flex;
+    margin-left: 17%;
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 50px;
+
+    .box-user-contact {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgb(255, 255, 255);
+        height: 35vh;
+        width: 41%;
+
+        .user-img-up {
+            img {
+                width: 294px;
+                height: 87px;
+            }
+        }
+
+        .user-contact-img {
+            width: 100%;
+
+            img {
+                position: absolute;
+                top: 33%;
+                left: 18%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        .user-contact-name {
+            margin-top: 75px;
+        }
+    }
+
+
+    .box-user-owner-hotel {
+        padding: 20px;
+        width: 100%;
+        margin-left: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .user-hotel {
+            width: 100%;
+        }
+
+        .user-hotel-list-box {
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            .user-hotel-img {
+                padding: 18.5px;
+
+                img {
+                    width: 205px;
+                    height: 172px;
+                    border-radius: 10px;
+                }
+            }
+
+            .user-hotel-name {
+                padding: 10px;
+            }
+        }
+
+
+    }
+}
+
+.user-hotel-box {
+    gap: 25px;
+    display: flex;
+}
+
+.box-nav {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}

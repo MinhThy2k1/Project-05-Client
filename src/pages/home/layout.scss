@@ -1,0 +1,13 @@
+.homeContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
